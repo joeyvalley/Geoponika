@@ -1,4 +1,6 @@
-function App() {
+import '../black.css';
+
+export default function Black() {
   return (
     <main className="container">
       <section className="landing">
@@ -10,19 +12,16 @@ function App() {
         </div>
       </section>
       <div className="hero">
-        <img src="/assets/hero1.jpg" alt="Bergamot" />
+        <img src="/assets/crop1.jpg" alt="Bergamot" />
       </div>
       <div className="hero">
-        <img src="/assets/hero2.jpg" alt="Mayer" />
+        <img src="/assets/crop2.jpg" alt="Mayer" />
       </div>
       <div className="hero">
         <img src="https://cactus.store/cdn/shop/products/20200521_HotCactus_Garden_4_6c0f0da1-b2b5-4057-a3bd-3f717870906e.jpg" alt="Mayer 2" />
       </div>
       <div className="hero">
-        <img src="https://cactus.store/cdn/shop/products/ELCENTRO4_lowres.jpg" alt="El Centro" />
-      </div>
-      <div className="hero">
-        <img src="https://cactus.store/cdn/shop/files/IMG_5959_2.heic" alt="El Centro" />
+        <img src="/assets/crop3.jpg" alt="El Centro" />
       </div>
       <section className="menu-container">
         <div className="menu">
@@ -44,7 +43,5 @@ function App() {
         </div>
       </section>
     </main>
-  );
+  )
 }
-
-export default App;
