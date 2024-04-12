@@ -36,7 +36,7 @@ function App() {
             <h2>Los Angeles / NYC</h2>
           </div>
           <div>
-            <h3>Landscapes, Gardens,<br />Glasshouses and Installations</h3>
+            <h3>Landscapes, Gardens,<br />Glasshouses and Installations </h3>
           </div>
           <div>
             <h2>For more information or selected portfolio:<br /><a href="mailto:info@geoponika.com">info@Geoponika.co</a></h2>
