@@ -3,18 +3,27 @@ function App() {
     <main className="container">
       <section className="landing">
         <div className="flower">
-          <img src="/assets/black-logo.png" alt="Geoponika Flower Logo" />
+          <img src="/assets/white-logo.png" alt="Geoponika Flower Logo" />
         </div>
         <div className="text">
-          <img src="/assets/geoponika-text.png" alt="Geoponika Text Logo" />
+          <img src="/assets/white-text.png" alt="Geoponika Text Logo" />
         </div>
       </section>
-      <section className="hero">
+      <div className="hero">
         <img src="/assets/hero1.jpg" alt="Bergamot" />
-      </section>
-      <section className="hero">
+      </div>
+      <div className="hero">
         <img src="/assets/hero2.jpg" alt="Mayer" />
-      </section>
+      </div>
+      <div className="hero">
+        <img src="https://cactus.store/cdn/shop/products/20200521_HotCactus_Garden_4_6c0f0da1-b2b5-4057-a3bd-3f717870906e.jpg" alt="Mayer 2" />
+      </div>
+      <div className="hero">
+        <img src="https://cactus.store/cdn/shop/products/ELCENTRO4_lowres.jpg" alt="El Centro" />
+      </div>
+      <div className="hero">
+        <img src="https://cactus.store/cdn/shop/files/IMG_5959_2.heic" alt="El Centro" />
+      </div>
       <section className="menu-container">
         <div className="menu">
           <div>
@@ -30,7 +39,7 @@ function App() {
             <h3>Landscapes, Gardens,<br />Glasshouses and Installations</h3>
           </div>
           <div>
-            <h2>For more information or selected portfolio:<br /><a href="mailto:info@geoponika.com">info@Geoponika.com</a></h2>
+            <h2>For more information or selected portfolio:<br /><a href="mailto:info@geoponika.com">info@Geoponika.co</a></h2>
           </div>
         </div>
       </section>
