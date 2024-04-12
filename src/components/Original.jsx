@@ -18,7 +18,7 @@ export default function Original() {
         <img src="/assets/hero2.jpg" alt="Mayer" />
       </section>
       <section className="original-menu-container">
-        <div className="menu">
+        <div className="original-menu">
           <div>
             <h1>G E O P O N I K A</h1>
             <h2>Agricultural Pursuits</h2>
