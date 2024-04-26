@@ -5,10 +5,10 @@ export default function Black() {
     <main className="container">
       <section className="landing">
         <div className="flower">
-          <img src="/assets/white-logo.png" alt="Geoponika Flower Logo" />
+          <img src="/assets/black-logo.png" alt="Geoponika Flower Logo" />
         </div>
         <div className="text">
-          <img src="/assets/white-text.png" alt="Geoponika Text Logo" />
+          <img src="/assets/black-text.png" alt="Geoponika Text Logo" />
         </div>
       </section>
       <div className="hero">
@@ -16,6 +16,9 @@ export default function Black() {
       </div>
       <div className="hero">
         <img src="/assets/crop2.jpg" alt="Mayer" />
+      </div>
+      <div className="hero">
+        <video src="https://imgur.com/LO3T7QN.mp4" autoPlay={true} muted playsInline={true} loop preload="auto"></video>
       </div>
       <div className="hero">
         <img src="https://cactus.store/cdn/shop/products/20200521_HotCactus_Garden_4_6c0f0da1-b2b5-4057-a3bd-3f717870906e.jpg" alt="Mayer 2" />
