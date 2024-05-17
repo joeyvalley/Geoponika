@@ -42,7 +42,7 @@ body {
   margin: 0 auto;
   overflow-y: scroll;
   overflow-x: hidden;
-  /* scroll-snap-type: y mandatory; */
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -184,9 +184,16 @@ section {
 
 @media only screen and (max-width: 576px) {
 
+  /* .container {
+    scroll-snap-type: none;
+  } */
+
   section {
-    min-height: 10%;
-    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
   }
 
   .logo img {
@@ -199,15 +206,8 @@ section {
     padding-bottom: 0.5rem;
   }
 
-  .portrait {
-    display: block;
-    margin: 0;
-    padding: 0;
-    transform: scale(1.01);
-  }
-
-  .landscape {
-    display: none;
+  .landscape img {
+    height: 100%;
   }
 
   .landing {
@@ -223,21 +223,6 @@ section {
 
   .text img {
     width: 80%;
-  }
-
-  .hero img {
-    /* width: 100%; */
-    height: 75%;
-    object-fit: cover;
-  }
-
-  .hero video {
-    width: 100%;
-    object-fit: cover;
-    padding: 0;
-    margin: 0;
-    line-height: 0;
-    transform: scale(1.01);
   }
 
   .menu {
@@ -317,13 +302,4 @@ section {
     text-decoration: underline;
     color: blue;
   }
-
-  .hero video {
-    width: 100%;
-    object-fit: fill;
-    padding: 0;
-    margin: 0;
-    line-height: 0;
-  }
-
 }
