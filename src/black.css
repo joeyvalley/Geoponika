@@ -40,14 +40,16 @@ body {
   height: 100dvh;
   width: 100dvw;
   margin: 0 auto;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   /* scroll-snap-type: y mandatory; */
 }
 
 section {
-  height: 100%;
+  min-height: 100%;
+  max-height: fit-content;
   width: 100%;
-  /* scroll-snap-align: start; */
+  scroll-snap-align: start;
 }
 
 .landing {
@@ -70,6 +72,19 @@ section {
   min-width: 100px;
   max-width: 600px;
 }
+
+.logo {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 100%;
+}
+
 
 .text {
   display: flex;
@@ -153,14 +168,42 @@ section {
 
 .landscape {
   display: block;
+  height: 100dvh;
+}
+
+.landscape img {
+  height: 100%;
+}
+
+.menu img {
+  width: 75%;
+  padding-bottom: 0.5rem;
 }
 
 /* MOBILE STYLES */
 
 @media only screen and (max-width: 576px) {
 
+  section {
+    min-height: 10%;
+    max-height: fit-content;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu img {
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+
   .portrait {
     display: block;
+    margin: 0;
+    padding: 0;
+    transform: scale(1.01);
   }
 
   .landscape {
