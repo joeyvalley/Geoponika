@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../public/fonts/Didot.woff2') format('woff2'),
+    url('../public/fonts/Didot.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../public/fonts/Didot-Bold.woff2') format('woff2'),
+    url('../public/fonts/Didot-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../public/fonts/Didot-Italic.woff2') format('woff2'),
+    url('../public/fonts/Didot-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 8px;
+}
+
+.white-container {
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0 auto;
+  overflow: scroll;
+  background: white;
+  color: black;
+  /* scroll-snap-type: y mandatory; */
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  /* scroll-snap-align: start; */
+}
+
+.white-landing {
+  display: grid;
+  grid-template-rows: 6fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.white-flower {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-flower img {
+  width: 40%;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 600px;
+}
+
+.white-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.white-text img {
+  width: 65%;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 800px;
+}
+
+.white-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.white-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.white-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.white-menu {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
+  text-align: center;
+}
+
+.white-menu h1 {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.white-menu h2 {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.white-menu h3 {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.white-menu a {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 576px) {
+
+  .white-landing {
+    display: grid;
+    grid-template-rows: 7fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .white-flower img {
+    width: 80%;
+  }
+
+  .white-text img {
+    width: 80%;
+  }
+
+  .white-hero img {
+    /* width: 100%; */
+    height: 75%;
+    object-fit: cover;
+  }
+
+  .white-menu {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2.5rem;
+    text-align: center;
+    height: 100%;
+    padding: 5rem 1rem;
+  }
+
+  .white-menu h1 {
+    font-size: 1.25rem;
+  }
+
+  .white-menu h2 {
+    font-size: 1.25rem;
+  }
+
+  .white-menu h3 {
+    font-size: 1.25rem;
+  }
+
+  .white-menu a {
+    font-family: 'Didot', 'Times New Roman', serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+/* LANDSCAPE */
+
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+  .white-landing {
+    display: grid;
+    height: 100%;
+    width: 100%;
+  }
+
+  .white-flower img {
+    width: 30%;
+  }
+
+  .white-text img {
+    width: 40%;
+  }
+
+  .white-menu {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    text-align: center;
+    height: 100%;
+
+    padding-top: 1rem;
+  }
+
+  .white-menu h1 {
+    font-size: 1.5rem;
+  }
+
+  .white-menu h2 {
+    font-size: 1.5rem;
+  }
+
+  .white-menu h3 {
+    font-size: 1.5rem;
+  }
+
+  .white-menu a {
+    font-family: 'Didot', 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: blue;
+  }
+
+}

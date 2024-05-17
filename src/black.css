@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../public/fonts/Didot.woff2') format('woff2'),
+    url('../public/fonts/Didot.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../public/fonts/Didot-Bold.woff2') format('woff2'),
+    url('../public/fonts/Didot-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../public/fonts/Didot-Italic.woff2') format('woff2'),
+    url('../public/fonts/Didot-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 8px;
+  background: white;
+  color: black;
+}
+
+.container {
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0 auto;
+  overflow: scroll;
+  /* scroll-snap-type: y mandatory; */
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  /* scroll-snap-align: start; */
+}
+
+.landing {
+  display: grid;
+  grid-template-rows: 6fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.flower {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower img {
+  width: 40%;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 600px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text img {
+  width: 65%;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 800px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero video {
+  width: 100%;
+  object-fit: fill;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.menu {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
+  text-align: center;
+}
+
+.menu h1 {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menu h2 {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.menu h3 {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.menu a {
+  font-family: 'Didot', 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.portrait {
+  display: none;
+}
+
+.landscape {
+  display: block;
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 576px) {
+
+  .portrait {
+    display: block;
+  }
+
+  .landscape {
+    display: none;
+  }
+
+  .landing {
+    display: grid;
+    grid-template-rows: 7fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .flower img {
+    width: 80%;
+  }
+
+  .text img {
+    width: 80%;
+  }
+
+  .hero img {
+    /* width: 100%; */
+    height: 75%;
+    object-fit: cover;
+  }
+
+  .hero video {
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    transform: scale(1.01);
+  }
+
+  .menu {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2.5rem;
+    text-align: center;
+    height: 100%;
+    padding: 5rem 1rem;
+  }
+
+  .menu h1 {
+    font-size: 1.25rem;
+  }
+
+  .menu h2 {
+    font-size: 1.25rem;
+  }
+
+  .menu h3 {
+    font-size: 1.25rem;
+  }
+
+  .menu a {
+    font-family: 'Didot', 'Times New Roman', serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: black;
+  }
+}
+
+/* LANDSCAPE */
+
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+
+  .landing {
+    display: grid;
+    height: 100%;
+    width: 100%;
+  }
+
+  .flower img {
+    width: 30%;
+  }
+
+  .text img {
+    width: 40%;
+  }
+
+  .menu {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    text-align: center;
+    height: 100%;
+
+    padding-top: 1rem;
+  }
+
+  .menu h1 {
+    font-size: 1.5rem;
+  }
+
+  .menu h2 {
+    font-size: 1.5rem;
+  }
+
+  .menu h3 {
+    font-size: 1.5rem;
+  }
+
+  .menu a {
+    font-family: 'Didot', 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .hero video {
+    width: 100%;
+    object-fit: fill;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+  }
+
+}
