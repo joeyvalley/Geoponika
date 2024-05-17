@@ -11,21 +11,14 @@ export default function Black() {
           <img src="/assets/black-text.png" alt="Geoponika Text Logo" />
         </div>
       </section>
-      <div className="hero">
-        <img src="/assets/crop1.jpg" alt="Bergamot" />
+
+      <div className="hero portrait">
+        <img src="/assets/crop2.jpg" alt="Bergamot Portrait" />
       </div>
-      <div className="hero">
-        <img src="/assets/crop2.jpg" alt="Mayer" />
+      <div className="hero landscape">
+        <img src="/assets/hero1.jpg" alt="Bergamot Landscape" />
       </div>
-      <div className="hero">
-        <video src="https://imgur.com/LO3T7QN.mp4" autoPlay={true} muted playsInline={true} loop preload="auto"></video>
-      </div>
-      <div className="hero">
-        <img src="https://cactus.store/cdn/shop/products/20200521_HotCactus_Garden_4_6c0f0da1-b2b5-4057-a3bd-3f717870906e.jpg" alt="Mayer 2" />
-      </div>
-      <div className="hero">
-        <img src="/assets/crop3.jpg" alt="El Centro" />
-      </div>
+
       <section className="menu-container">
         <div className="menu">
           <div>
