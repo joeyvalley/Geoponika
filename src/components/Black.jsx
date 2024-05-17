@@ -16,33 +16,34 @@ export default function Black() {
       </section>
 
       {/* IMAGES */}
+
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final1.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/japan2.jpg" alt="Japan" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final2.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final1.jpg" alt="2B" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final3.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final2.jpg" alt="3" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final4.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final4.jpg" alt="El Centro" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final5.jpg" alt="Japan" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/mayer2.jpg" alt="Mayer" />
         </div>
       </section>
 
