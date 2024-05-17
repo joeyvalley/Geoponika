@@ -17,73 +17,32 @@ export default function Black() {
 
       {/* IMAGES */}
       <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/crop2.jpg" alt="Bergamot Portrait" />
-        </div>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/hero1.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final1.jpg" alt="Bergamot Landscape" />
         </div>
       </section>
 
       <section>
-        <div className="hero">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/portrait1.jpg" alt="Bergamot Portrait" />
+        <div className="hero landscape">
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final2.jpg" alt="Bergamot Landscape" />
         </div>
       </section>
 
       <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape2-crop.jpg" alt="Bergamot Portrait" />
-        </div>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape2.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final3.jpg" alt="Bergamot Landscape" />
         </div>
       </section>
 
       <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape3-crop.jpg" alt="Bergamot Portrait" />
-        </div>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape3.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final4.jpg" alt="Bergamot Landscape" />
         </div>
       </section>
 
       <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape4-crop.jpg" alt="Bergamot Portrait" />
-        </div>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape4.jpg" alt="Bergamot Landscape" />
-        </div>
-      </section>
-      <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape5-crop.jpg" alt="Bergamot Portrait" />
-        </div>
-        <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape5.jpg" alt="Bergamot Landscape" />
-        </div>
-      </section>
-      <section>
-        <div className="hero">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/portrait2.jpg" alt="Bergamot Portrait" />
-        </div>
-      </section>
-      <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape6-crop.jpg" alt="Bergamot Portrait" />
-        </div>
-        <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape6.jpg" alt="Bergamot Landscape" />
-        </div>
-      </section>
-      <section>
-        <div className="hero portrait">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape7-crop.jpg" alt="Bergamot Portrait" />
-        </div>
-        <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/landscape7.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final5.jpg" alt="Japan" />
         </div>
       </section>
 
