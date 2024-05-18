@@ -16,57 +16,48 @@ export default function Black() {
       </section>
 
       {/* IMAGES */}
+
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final1.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/japan2.jpg" alt="Japan" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final2.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final1.jpg" alt="2B" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final3.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final2.jpg" alt="3" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final4.jpg" alt="Bergamot Landscape" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/final4.jpg" alt="El Centro" />
         </div>
       </section>
 
       <section>
         <div className="hero landscape">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/final5.jpg" alt="Japan" />
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/mayer2.jpg" alt="Mayer" />
         </div>
       </section>
 
 
       <section className="menu-container">
         <div className="menu">
-          <div>
-            {/* <h1>G E O P O N I K A</h1> */}
-            <img src="https://05ec48578e12534030.temporary.link/geoponika/black-text.png" alt="Geoponika Text Logo" />
-            <h2>Agricultural Pursuits</h2>
-          </div>
-          <div>
-          </div>
-          <div>
-            <h2>Los Angeles / NYC</h2>
-          </div>
-          <div>
-            <h3>Landscapes, Gardens,<br />Glasshouses and Installations </h3>
-          </div>
-          <div>
-            <h2>For more information or selected portfolio:<br /><a href="mailto:info@geoponika.com">info@Geoponika.co</a></h2>
-          </div>
+          <img src="https://05ec48578e12534030.temporary.link/geoponika/black-text.png" alt="Geoponika Text Logo" />
+          <h2>Agricultural Pursuits</h2>
+          <h2>Los Angeles</h2>
+          <h3>Landscapes, Gardens & Glasshouses</h3>
+          <h4>For inquiries or selected portfolio<br /><a href="mailto:info@geoponika.com" target="_blank">info@geoponika.co</a></h4>
+          <h4><a href="https://instagram.com/geoponika_" target="_blank">@geopnika_</a></h4>
         </div>
       </section>
-    </main>
+    </main >
   )
 }
