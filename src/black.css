@@ -104,6 +104,7 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  align-content: center;
 }
 
 .hero img {
@@ -184,16 +185,14 @@ section {
 
 @media only screen and (max-width: 576px) {
 
-  /* .container {
-    scroll-snap-type: none;
-  } */
-
   section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100dvh;
+    align-content: center;
+  }
+
+  .landscape img {
+    height: auto;
+    width: 100%;
   }
 
   .logo img {
@@ -204,10 +203,6 @@ section {
   .menu img {
     width: 100%;
     padding-bottom: 0.5rem;
-  }
-
-  .landscape img {
-    height: 100%;
   }
 
   .landing {
