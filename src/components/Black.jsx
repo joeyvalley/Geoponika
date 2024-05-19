@@ -3,16 +3,10 @@ import '../black.css';
 export default function Black() {
   return (
     <main className="container">
-      <section className="landing">
-        {/* <div className="flower">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/black-logo.png" alt="Geoponika Flower Logo" />
-        </div> */}
+      <section>
         <div className="logo">
           <img src="https://05ec48578e12534030.temporary.link/geoponika/final-logo.jpg" alt="Geoponika Full Logo" />
         </div>
-        {/* <div className="text">
-          <img src="https://05ec48578e12534030.temporary.link/geoponika/black-text.png" alt="Geoponika Text Logo" />
-        </div> */}
       </section>
 
       {/* IMAGES */}
