@@ -251,22 +251,27 @@ section {
     font-size: 1rem;
     font-weight: normal;
     text-transform: uppercase;
-    letter-spacing: 1.1rem;
+    letter-spacing: 0.5rem;
+    line-height: 2rem;
   }
 
   .menu h4 {
     font-family: 'Caslon', 'Times New Roman', serif;
     font-size: 1rem;
     font-weight: normal;
-    letter-spacing: 1rem;
-    padding: 0rem 1rem;
+    letter-spacing: 0.25rem;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    line-height: 2rem;
   }
 
   .menu h3 {
     font-family: 'Caslon', 'Times New Roman', serif;
     font-size: 1rem;
     font-weight: normal;
-    letter-spacing: 1rem;
+    letter-spacing: 0.25rem;
+    line-height: 2rem;
   }
 
   .menu a {
@@ -276,6 +281,7 @@ section {
     text-decoration: none;
     color: black;
     transition: color 0.5s;
+    line-height: 2rem;
   }
 
 
