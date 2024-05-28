@@ -48,7 +48,7 @@ export default function Black() {
           <h2>Agricultural Pursuits</h2>
           <h2>Los Angeles</h2>
           <h3>Landscapes, Gardens & Glasshouses</h3>
-          <h4>For inquiries or selected portfolio<br /><a href="mailto:info@geoponika.com" target="_blank">info@geoponika.co</a></h4>
+          <h4>For inquiries or selected portfolio<br /><a href="mailto:info@geoponika.co" target="_blank">info@geoponika.co</a></h4>
           <h4><a href="https://instagram.com/geoponika_" target="_blank">@geoponika_</a></h4>
         </div>
       </section>
